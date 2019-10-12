@@ -39,7 +39,9 @@ font-family: 'Roboto', sans-serif;
 
 }
 
-
+.jumpo{
+    padding-left: 29%;
+}
 
 .container {
     width: 800px;
@@ -176,14 +178,17 @@ font-family: 'Roboto', sans-serif;
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+     font-family: 'Rubik', sans-serif;
 }
 
 .bottom-content .text-container {
     padding-right: 4%;
+     font-family: 'Rubik', sans-serif;
 }
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+     font-family: 'Rubik', sans-serif;
 }
 .jumbo{
     padding-left: 30%;
@@ -205,6 +210,8 @@ font-family: 'Roboto', sans-serif;
     padding-top: 10px;
     padding-right: 0px;
     width: 100%;
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
 
 }
 .aabout{
@@ -229,9 +236,9 @@ font-family: 'Roboto', sans-serif;
     align-content: flex-start;
     align-items:stretch;
     
-    padding-left: 30%;
+    padding-left: 29%;
     
-    width: 40%;
+    width: 42%;
 }
 
 .container3{display: flex;
@@ -263,6 +270,7 @@ font-family: 'Roboto', sans-serif;
         font-family: 'Titillium Web', sans-serif;
 
 
+
 text-align: center;
 align-items: center;
 
@@ -272,6 +280,13 @@ align-items: center;
 border:1px; border-style:solid; border-color:#black;  padding: 0em;
 padding-left: 15px;
 }
+
+
+
+
+
+
+
 
 .HCol{display: flex;
     flex-direction: column;
@@ -306,9 +321,9 @@ padding-left: 15px;}
     align-content: flex-start;
     align-items:stretch;
     
-    padding-left: 30%;
+    padding-left: 29%;
     
-    width: 40%}
+    width: 42%}
 
 .container5{display: flex;
     flex-direction: row;
@@ -430,7 +445,42 @@ padding: 20px;
     text-decoration: none;
 }
 
+.footer2 nav{
+display: flex;
+background-color: black;
+text-decoration: none;
+justify-content: space-between;
+width: 100%;
+font-size: 14px;
+padding: 20px;
+}
+.footer2 nav a {
+    color: white;
+    width: 50%;
+    text-decoration: none;
+}
 
+
+.wp{
+    display: flex;
+    justify-content: center;
+    height: 50%;
+    width: 50%;
+}
+
+.CALLNOW{
+    font-size: 22pt;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.num{font-size: 22pt;
+font-family: 'Titillium Web', sans-serif;}
+
+.address{font-size: 22pt;
+font-family: 'Titillium Web', sans-serif;}
+
+.email{font-size: 22pt;
+font-family: 'Titillium Web', sans-serif;}
 
 
 
